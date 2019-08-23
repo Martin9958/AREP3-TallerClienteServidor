@@ -8,7 +8,7 @@ import java.net.URL;
 public class URLReader {
 
     public static void main(String[] args) throws Exception{
-        URL google = new URL("https://colombia.payulatam.com/blog/llega-la-nueva-era-del-debito");
+        URL google = new URL("https://docs.oracle.com/javase/7/docs/api/java/net/URL.html");
         try(BufferedReader reader = new BufferedReader(new InputStreamReader(google.openStream()))){
             String inputLine = null;
             while ((inputLine = reader.readLine()) != null){
@@ -19,7 +19,8 @@ public class URLReader {
                         "\n" + "Path: "+ google.getPath() +
                         "\n" + "Query: "+ google.getQuery() +
                         "\n" + "File: "+ google.getFile() +
-                        "\n" + "Ref: "+ google.getRef()
+                        "\n" + "Ref: "+ google.getRef() +
+                        "\n" + "<----------------------->"
                 );
             }
         }catch (IOException x){
