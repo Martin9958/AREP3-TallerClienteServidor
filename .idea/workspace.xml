@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91ed5937-c45f-47e7-adb7-8aecc068cddd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/escuelaing/edu/arem/ejercicio2/BrowserURL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/escuelaing/edu/arem/model/URLReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/escuelaing/edu/arem/ejercicio1/URLReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/escuelaing/edu/arem/ejercicio2/BrowserURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/escuelaing/edu/arem/ejercicio2/BrowserURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/result.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566591113739</updated>
-      <workItem from="1567647111496" duration="6852000" />
+      <workItem from="1567647111496" duration="7998000" />
     </task>
     <servers />
   </component>
