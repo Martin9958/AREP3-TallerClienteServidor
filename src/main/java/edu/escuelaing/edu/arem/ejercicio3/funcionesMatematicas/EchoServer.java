@@ -43,14 +43,19 @@ public class EchoServer {
     public Double calculateFunction(String inputLine){
         double number = 0.0;
         String [] radianNumber;
-        Integer otherNumber = 1;
+        String otherNumber = "1";
+        Double solution = 0.0;
         if(inputLine.contains("/")){
             radianNumber = inputLine.split("/");
             inputLine = radianNumber[1];
             if(radianNumber[0].equals("π")){
-
+                otherNumber = "180";
             }
         }
+        if( otherNumber!= "1"){
+            solution = Double.parseDouble(otherNumber)/Double.parseDouble(inputLine);
+        }
+        double radianes = Math.toRadians(solution);
         return 0.0;
 
 
