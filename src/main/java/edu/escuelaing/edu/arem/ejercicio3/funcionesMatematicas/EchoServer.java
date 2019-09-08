@@ -29,7 +29,7 @@ public class EchoServer {
         String outputLine = "";
         while ((inputLine = in.readLine()) != null) {
             System.out.println("Mensaje:" + inputLine);
-            outputLine = "Respuest - El coseno es" + inputLine;
+            outputLine = "Respuest - El coseno es" + calculateFunction(inputLine);
             out.println(outputLine);
             if (outputLine.equals("Respuestas: Bye."))
                 break;
@@ -40,7 +40,7 @@ public class EchoServer {
         serverSocket.close();
     }
 
-    public Double calculateFunction(String inputLine){
+    public static Double calculateFunction(String inputLine){
         double number = 0.0;
         String [] radianNumber;
         String otherNumber = "1";
