@@ -40,4 +40,20 @@ public class EchoServer {
         serverSocket.close();
     }
 
+    public Double calculateFunction(String inputLine){
+        double number = 0.0;
+        String [] radianNumber;
+        Integer otherNumber = 1;
+        if(inputLine.contains("/")){
+            radianNumber = inputLine.split("/");
+            inputLine = radianNumber[1];
+            if(radianNumber[0].equals("π")){
+
+            }
+        }
+        return 0.0;
+
+
+    }
+
 }
