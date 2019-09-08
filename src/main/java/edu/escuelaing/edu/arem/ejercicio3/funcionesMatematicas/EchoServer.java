@@ -29,7 +29,7 @@ public class EchoServer {
         String outputLine = "";
         while ((inputLine = in.readLine()) != null) {
             System.out.println("Mensaje:" + inputLine);
-            outputLine = "Respuest - El numero cuadrado es" + inputLine;
+            outputLine = "Respuest - El coseno es" + inputLine;
             out.println(outputLine);
             if (outputLine.equals("Respuestas: Bye."))
                 break;
@@ -56,7 +56,7 @@ public class EchoServer {
             solution = Double.parseDouble(otherNumber)/Double.parseDouble(inputLine);
         }
         double radianes = Math.toRadians(solution);
-        return 0.0;
+        return Math.cos(radianes);
 
 
     }
